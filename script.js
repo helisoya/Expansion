@@ -1,7 +1,7 @@
 var lon=0;												
 var lar=0;
 var tab = new Array(50); 
-var currentMap = 'Default';
+var currentMap = 'map_europe';
 for (i = 0; i < 50; i++) {
 	tab[i] = new Array(50);     
 	for (j = 0; j < 50; j++) {
@@ -360,9 +360,6 @@ function ChangeCurrentMap(n){
 
 function init(){
 	clearTimeout(repet);
-	if (currentMap=='Default'){
-		currentMap = 'test';
-	}
 	
 	loadMap(currentMap);
 
