@@ -1,0 +1,30 @@
+body{
+	text-align:center;
+	background-color:cadetblue;
+}
+
+div{
+	display:flex;
+	text-align:center;
+	margin:auto;
+}
+
+#cadre{
+	background-color:dimgrey;
+	width: 538px;
+	border: solid black 1px; 
+}
+
+#buttons{
+	display:grid;
+	text-align:center;
+	background-color:darkgrey;
+	border: solid black 1px; 
+	margin:5px;
+}
+
+#canvas{
+	text-align:center;
+	border: 1px solid;
+	background-color:gray;
+}
